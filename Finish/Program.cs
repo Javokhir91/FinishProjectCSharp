@@ -10,30 +10,30 @@ Console.WriteLine(result);
 
 // Вариант втрой 
 
-char [] collection = ("Зада4ча: Напи3сать програм23му, котор4ая").ToCharArray(); 
-int count = 0;
-foreach (char item in collection)
-{ 
-  if(!char.IsDigit(item))
-  {
-  count++;
-  }
-}
-//Этот код определит нецифры
-char[] newArr = new char[count];
-//Массив длиной определенной ранее
-count =0;
-foreach (char item in collection) 
-{ 
- if(!char.IsDigit(item))
-    {
-    newArr[count]=item;
-    count++;    
- }
-}
-System.Console.WriteLine(newArr);
+// char [] collection = ("Зада4ча: Напи3сать програм23му, котор4ая").ToCharArray(); 
+// int count = 0;
+// foreach (char item in collection)
+// { 
+//   if(!char.IsDigit(item))
+//   {
+//   count++;
+//   }
+// }
+// //Этот код определит нецифры
+// char[] newArr = new char[count];
+// //Массив длиной определенной ранее
+// count =0;
+// foreach (char item in collection) 
+// { 
+//  if(!char.IsDigit(item))
+//     {
+//     newArr[count]=item;
+//     count++;    
+//  }
+// }
+// System.Console.WriteLine(newArr);
 
- 
+// Не удачные моменты ))))
 // Console.WriteLine("Введи: ");
 
 // string strings = "Зада4ча: Напи3сать програм23му, котор4ая из сформ324ированного";
